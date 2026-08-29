@@ -1,65 +1,9 @@
 fastapi
-uvicorn[standard]
+uvicorn
 pydantic
-python-multipart
-
-pandas
 numpy
+pandas
 scikit-learn
 xgboost
 imbalanced-learn
-
 joblib
-
-````
-
-### 3. Your project should now look like
-
-```text
-FraudGuard/
-│
-├── frontend/
-│
-├── backend/
-│   └── main.py
-│
-├── src/
-│   └── predict.py
-│
-├── models/
-│
-├── fraudguard.db
-├── requirements.txt   ← NEW
-└── README.md
-````
-
-### 4. Test it
-
-Open **CMD/PowerShell** in the project folder and run:
-
-```bash
-pip install -r requirements.txt
-```
-
-If everything is already installed, you'll see messages like:
-
-```text
-Requirement already satisfied
-```
-
-Then test your backend:
-
-```bash
-cd backend
-uvicorn main:app --reload
-```
-
-If you get:
-
-```text
-Application startup complete.
-```
-
-✅ **Step 2 is complete.**
-
-**Next → Step 3: prepare your project for GitHub (create `.gitignore` so you don't upload unnecessary files like `venv`, cache files, and the SQLite database).**
