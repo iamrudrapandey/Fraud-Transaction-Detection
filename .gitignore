@@ -1,0 +1,61 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+
+venv/
+.venv/
+env/
+
+# Environment variables
+
+.env
+.env.*
+
+# Database
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Machine Learning generated files
+
+*.pkl
+*.joblib
+
+# Node
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Frontend build
+
+dist/
+build/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+logs/
+
+# Large datasets
+dataset/*.csv
+models/*.csv
+
+dataset/creditcard.csv
+models/X_train.csv
