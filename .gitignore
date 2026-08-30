@@ -22,8 +22,6 @@ env/
 *.sqlite3
 
 # Machine Learning generated files
-
-*.pkl
 *.joblib
 
 # Node
